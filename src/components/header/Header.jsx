@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 
 import CTA from "./CTA";
 import "./header.css";
@@ -9,7 +8,6 @@ import HeaderSocials from "./HeaderSocials";
 const Header = () => {
   return (
     <header>
-      {/* <Container> */}
         <div className="container header__container">
           <h5>Hello I'm</h5>
           <h1>Mohamed Abrar</h1>
@@ -26,7 +24,6 @@ const Header = () => {
 
           <HeaderSocials />
         </div>
-      {/* </Container> */}
     </header>
   );
 };

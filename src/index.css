@@ -105,7 +105,7 @@ a:hover {
   border-color: transparent;
 }
 
-.btn-pimary {
+.btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
 }
@@ -129,7 +129,7 @@ img {
 
 /* =======================  MEDIA CUERIES (SMALL DEVICES) ====================== */
 
-@media screen and(max-width: 1024px) {
+@media screen and(max-width: 600px) {
   .container{
     width: var(--container-width-sm);
   }

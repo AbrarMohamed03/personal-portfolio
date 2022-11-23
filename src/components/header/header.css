@@ -75,7 +75,7 @@ header {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 120vh;
+    height: 130vh;
   }
 
   .cta {

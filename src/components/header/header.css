@@ -65,16 +65,13 @@ header {
 
 /* =======================  MEDIA CUERIES (MEDIUM DEVICES) ====================== */
 
-@media screen and (max-width: 1024px) {
-  header {
-    height: 100vh;
-  }
-}
+/* @media screen and (max-width: 1024px) {} */
+
 /* =======================  MEDIA CUERIES (SMALL DEVICES) ====================== */
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    margin-top: 10px;
   }
 
   .cta {

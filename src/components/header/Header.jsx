@@ -1,4 +1,5 @@
 import React from "react";
+// import Container from "react-bootstrap/Container";
 
 import CTA from "./CTA";
 import "./header.css";
@@ -8,22 +9,25 @@ import HeaderSocials from "./HeaderSocials";
 const Header = () => {
   return (
     <header>
-        <div className="container header__container" id="home">
+      <div className="container header__container" id="home">
+        <div className="first">
           <h5>Hello I'm</h5>
           <h1>Mohamed Abrar</h1>
           <h5 className="text-light">FullStack Devleloper</h5>
-          <CTA />
-
-          <div className="me">
-            <img src={ME} alt="me" />
-          </div>
-
-          <a href="#contact" className="scroll__down">
-            Scroll Down
-          </a>
-
-          <HeaderSocials />
         </div>
+
+        <CTA />
+
+        <div className="me">
+          <img src={ME} alt="me" />
+        </div>
+
+        <a href="#contact" className="scroll__down">
+          Scroll Down
+        </a>
+
+        <HeaderSocials />
+      </div>
     </header>
   );
 };

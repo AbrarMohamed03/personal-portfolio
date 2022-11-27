@@ -8,7 +8,6 @@ import Header from "./components/header/Header.jsx";
 import Nav from "./components/nav/Nav.jsx";
 import Portfolio from "./components/portfolio/Portfolio.jsx";
 import Services from "./components/services/Services.jsx";
-import Testmonials from "./components/testmonials/Testmonials.jsx";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
       <Experience />
       <Services />
       <Portfolio />
-      <Testmonials />
       <Contact />
       <Footer />
     </>

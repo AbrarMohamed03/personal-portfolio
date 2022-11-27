@@ -1,6 +1,7 @@
 import React from "react";
 import "./services.css";
 import { BiCheck } from "react-icons/bi";
+import { design, web, content } from "./data";
 
 const Services = () => {
   return (
@@ -9,107 +10,54 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
-{/* ======================== UI/UX Design =============================== */}
+        {/* ======================== UI/UX Design =============================== */}
         <article className="service">
           <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
           <ul className="service__list">
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
+            {design.map(({ id, desc }) => {
+              return (
+                <li key={id}>
+                  <BiCheck className="service__list-icon" />
+                  <p>{desc}</p>
+                </li>
+              );
+            })}
           </ul>
         </article>
 
-{/* ======================== WEB DEVELOPMENT =============================== */}
+        {/* ======================== WEB DEVELOPMENT =============================== */}
         <article className="service">
           <div className="service__head">
             <h3>Web Development</h3>
           </div>
           <ul className="service__list">
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
+            {web.map(({ id, desc }) => {
+              return (
+                <li key={id}>
+                  <BiCheck className="service__list-icon" />
+                  <p>{desc}</p>
+                </li>
+              );
+            })}
           </ul>
         </article>
 
-{/* ======================== Content Creations =============================== */}
+        {/* ======================== Content Creations =============================== */}
         <article className="service">
           <div className="service__head">
             <h3>Content Creations</h3>
           </div>
           <ul className="service__list">
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-            </li>
+            {content.map(({ id, desc }) => {
+              return (
+                <li key={id}>
+                  <BiCheck className="service__list-icon" />
+                  <p>{desc}</p>
+                </li>
+              );
+            })}
           </ul>
         </article>
       </div>

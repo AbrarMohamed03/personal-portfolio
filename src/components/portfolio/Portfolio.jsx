@@ -2,31 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import {SiGithub} from 'react-icons/si'
 import {CgMediaLive} from 'react-icons/cg'
-import IMG1 from '../../assets/portfolio1.jpg'
-
-const projects = [
-  {
-    id:1,
-    image:IMG1,
-    title:'This is a project1 name',
-    github:'https://github.com/',
-    demo:'https://facebook.com/'
-  },
-  {
-    id:2,
-    image:IMG1,
-    title:'This is a project2 name',
-    github:'https://github.com/',
-    demo:'https://facebook.com/'
-  },
-  {
-    id:3,
-    image:IMG1,
-    title:'This is a project3 name',
-    github:'https://github.com/',
-    demo:'https://facebook.com/'
-  },
-]
+import { projects } from './data'
 
 const Portfolio = () => {
   return (
@@ -46,8 +22,8 @@ const Portfolio = () => {
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
               <a href={github} 
-              className="btn" rel='noreferrer' target='_blank' title='Code surce on github'><SiGithub/></a>
-              <a href={demo} className="btn btn-primary" rel='noreferrer' target='_blank' title='Live demo'><CgMediaLive/></a>
+              className="btn" rel='noreferrer' target='_blank' title='Code surce on github'><SiGithub className="portfolio__item-cta-icon"/> Github</a>
+              <a href={demo} className="btn btn-primary" rel='noreferrer' target='_blank' title='Live demo'><CgMediaLive className="portfolio__item-cta-icon"/> Live Demo</a>
             </div>
           </article>
           )

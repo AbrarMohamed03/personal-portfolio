@@ -29,6 +29,9 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+.portfolio__item-cta-icon{
+    padding-top:4px ;
+}
 
 /* =======================  MEDIA CUERIES (MEDIUM DEVICES) ====================== */
 

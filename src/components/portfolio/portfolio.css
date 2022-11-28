@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2.5rem;
+    justify-content: center;
+    align-items: center; 
 }
 
 .portfolio__item{
@@ -39,11 +41,13 @@
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+        justify-content: center;
+        align-items: center; 
     }
   }
   /* =======================  MEDIA CUERIES (SMALL DEVICES) ====================== */
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 654px) {
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;

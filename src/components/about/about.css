@@ -74,6 +74,9 @@
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
+    justify-content: center;
+    align-items: center;
+
   }
 
   .about__me {

@@ -47,5 +47,7 @@
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
+        justify-content: center;
+        align-items: center;  
     }
   }

@@ -44,6 +44,9 @@
 @media screen and (max-width: 1024px) {
   .experience__container {
     grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+
   }
 
   .experience__container > div {
@@ -61,6 +64,9 @@
 @media screen and (max-width: 600px) {
     .experience__container{
         gap: 1rem;
+        justify-content: center;
+        align-items: center;
+  
     }
 
     .experience__container > div{

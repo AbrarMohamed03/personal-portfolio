@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import {SiGithub} from 'react-icons/si'
-import {CgMediaLive} from 'react-icons/cg'
+// import {CgMediaLive} from 'react-icons/cg'
 import { projects } from './data'
 
 const Portfolio = () => {
@@ -23,7 +23,7 @@ const Portfolio = () => {
             <div className="portfolio__item-cta">
               <a href={github} 
               className="btn" rel='noreferrer' target='_blank' title='Code surce on github'><SiGithub className="portfolio__item-cta-icon"/> Github</a>
-              <a href={demo} className="btn btn-primary" rel='noreferrer' target='_blank' title='Live demo'><CgMediaLive className="portfolio__item-cta-icon"/> Live Demo</a>
+              {/* <a href={demo} className="btn btn-primary" rel='noreferrer' target='_blank' title='Live demo' ><CgMediaLive className="portfolio__item-cta-icon"/> Live Demo</a> */}
             </div>
           </article>
           )

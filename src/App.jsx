@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer.jsx";
 import Header from "./components/header/Header.jsx";
 import Nav from "./components/nav/Nav.jsx";
 import Portfolio from "./components/portfolio/Portfolio.jsx";
-import Services from "./components/services/Services.jsx";
+// import Services from "./components/services/Services.jsx";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Services />
+      {/* <Services /> */}
       <Portfolio />
       <Contact />
       <Footer />

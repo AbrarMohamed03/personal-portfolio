@@ -43,16 +43,21 @@ export const back = [
   },
   {
     id: 3,
-    lang: "MongoDB",
+    lang: "Flask",
     lvl: "Intermediate",
   },
   {
     id: 4,
+    lang: "MongoDB",
+    lvl: "Intermediate",
+  },
+  {
+    id: 5,
     lang: "MySQL",
     lvl: "Experienced",
   },
   {
-    id: 5,
+    id: 6,
     lang: "SQLServer",
     lvl: "Intermediate",
   },

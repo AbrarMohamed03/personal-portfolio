@@ -67,7 +67,7 @@ header {
 
 @media screen and (max-width: 1024px) {  
   header {
-    height: 110vh;
+    
     margin-top: 5px;
   }}
 
@@ -75,7 +75,7 @@ header {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 130vh;
+    
   }
 
   .cta {

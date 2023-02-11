@@ -33,7 +33,7 @@ You will need to have `Node.js` and `npm` (Node Package Manager) installed on yo
 
 
 ```bash
-    gh repo clone DexTer-9/portfolio
+    git clone https://github.com/DexTer-9/portfolio.git
 ```
 
 2. Install the required packages:

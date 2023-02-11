@@ -33,14 +33,14 @@ You will need to have `Node.js` and `npm` (Node Package Manager) installed on yo
 
 
 ```bash
-    git clone https://github.com/DexTer-9/portfolio.git
+    git clone https://github.com/DexTer-9/personal-portfolio.git
 ```
 
 2. Install the required packages:
 
 
 ```bash
-    cd portfolio
+    cd personal-portfolio
     npm install
 
 ```

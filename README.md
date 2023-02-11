@@ -40,7 +40,7 @@ You will need to have `Node.js` and `npm` (Node Package Manager) installed on yo
 
 
 ```bash
-    cd personal-portfolio
+    cd portfolio
     npm install
 
 ```
